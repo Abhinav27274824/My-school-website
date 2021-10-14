@@ -1,0 +1,39 @@
+body{
+margin: 1px;
+text-align: center;
+}
+
+.menu{
+list-style: none;
+font-family: cursive;
+position: absolute;
+top: 10px;
+right: 30px;
+cursor: auto;
+}
+
+.links{
+float: left;
+color: aqua;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+}
+
+.links:hover{background-color: blueviolet} 
+
+img{
+transition: transform.2s
+}
+
+img:hover{transform: scale(0.9)}
+
+p{
+font-size: 25px;
+}
+
+marquee{
+background-color: purple;
+}
